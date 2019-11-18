@@ -90,6 +90,7 @@ _________________________________________________
      return 0; 
     }
 ```
+```
    Output
    Enter number of elements: 5
  
