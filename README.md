@@ -91,15 +91,15 @@ _________________________________________________
     }
 ```
    Output
-  Enter number of elements: 5
+   Enter number of elements: 5
  
-  Enter 5 elements
+   Enter 5 elements
   
-  2
-  3
-  4
-  5
-  6
+   2
+   3
+   4
+   5
+   6
 
    Average of entered numbers is = 4.000000
 ```
