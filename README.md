@@ -9,14 +9,13 @@
 
 __________________________________________________
 #**PROGRAM NO:1**
-*C program to print "Hello World"*
+*C program to print "welcome to budding engineers"*
 
 ```
   #include<stdio.h>
   int main()
    {
-     printf ("Hello World\n");
-     return 0;
+     puts ("welcome to budding engineers");
    }
 ```
 ```
