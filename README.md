@@ -25,7 +25,7 @@ __________________________________________________
 ```
 _________________________________________________
 #**PROGRAM NO:2**
-*C program to print Hello World five times*
+*C program to print Hello World three times*
 ```
    #include<stdio.h> 
    int main() 
@@ -68,41 +68,6 @@ __________________________________________________
    Output
    Enter an integer: -7 
    -7 is odd.
-```
-_________________________________________________
-#**Program no:4**
-*C program to find average of n numbers*
-```
-   #include<stdio.h> 
-   int main() 
-   { 
-    int n, i; 
-    float sum = 0, x; 
-    printf("Enter number of elements: ");     
-    scanf("%d", &n); 
-    printf("\n\n\nEnter %d elements\n\n", n); 
-    for(i = 0; i < n; i++) 
-    { 
-     scanf("%f", &x); 
-     sum += x;
-     } 
-    printf("\n\n\nAverage of the entered numbers  is = %f", (sum/n)); 
-     return 0; 
-    }
-```
-```
-   Output
-   Enter number of elements: 5
- 
-   Enter 5 elements
-  
-   2
-   3
-   4
-   5
-   6
-
-   Average of entered numbers is = 4.000000
 ```
 __________________________________________________
 #**Program no : 5**
@@ -295,28 +260,6 @@ _________________________________________________
       Output
       Enter two numbers :20 50
       Prime numbers between 20 and 50 are: 23 29       31 37 41 43 47
-```
-_________________________________________________
-#**program no 11**
-*C program to find largest no *
-```
-     #include <stdio.h>
-      int main()
-      { 
-      double n1, n2, n3; 
-       printf("Enter three different numbers: ");                               scanf("%lf %lf %lf", &n1, &n2, &n3);
-        if( n1>=n2 && n1>=n3 )
-       printf("%.2f is the largest number.", n1);               if( n2>=n1 && n2>=n3 ) 
-     printf("%.2f is the largest number.", n2);
-            if( n3>=n1 && n3>=n2 )
-     printf("%.2f is the largest number.", n3); 
-    return 0;
-}
-```
-```
-    Output
-    Enter three numbers: -4.5 3.9 5.6
-    5.60 is the largest number. 
 ```
 ______________________________________________
 #**Program no :12**
