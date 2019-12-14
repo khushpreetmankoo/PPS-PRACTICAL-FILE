@@ -8,7 +8,8 @@
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
 __________________________________________________
 ##**INDEX**
-#*Sr.No|Name of programs|*
+| Sr.No | Title of programs |
+| ------| ----------------- |
 __________________________________________________
 #**PROGRAM NO:1**
 *C program to print "welcome to budding engineers"*
@@ -104,27 +105,21 @@ __________________________________________________
      int n, i, flag = 0; 
      printf("Enter a positive integer: "); 
      scanf("%d", &n);
-     for(i = 2; i <= n/2; ++i) 
+     for(i = 1; i <= n; i++) 
       { 
        if(n%i == 0) 
        { 
-           flag = 1; 
-         break; 
-         } 
-       }
-        if (n == 1)
-      { 
-       printf("1 is neither a prime nor simple     number.");
+           flag++; 
+           break; 
        } 
-     else 
-       {
-        if (flag == 0) 
+      }
+        if (flag == 2) 
         printf("%d is a prime number.", n); 
-       else 
+        else 
         printf("%d is not a prime number.", n); 
        } 
-   return 0;
-}
+       return 0;
+      }
 ```
 ```
       Output
