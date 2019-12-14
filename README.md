@@ -8,7 +8,7 @@
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
 __________________________________________________
 ##**INDEX**
-*Sr.No|Name of programs|*
+#*Sr.No|Name of programs|*
 __________________________________________________
 #**PROGRAM NO:1**
 *C program to print "welcome to budding engineers"*
