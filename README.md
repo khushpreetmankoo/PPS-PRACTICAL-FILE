@@ -6,7 +6,9 @@
 ## SECTION- *IT(A2)* ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg) 
 ## **DEPARTMENT OF INFORMATION TECHNOLOGY** 
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
-
+__________________________________________________
+##**INDEX**
+*Sr.No|Name of programs|*
 __________________________________________________
 #**PROGRAM NO:1**
 *C program to print "welcome to budding engineers"*
