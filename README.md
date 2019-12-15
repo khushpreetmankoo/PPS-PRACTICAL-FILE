@@ -571,4 +571,48 @@ ________________________________________________________________________________
    x=3
    y=2
 ```
-
+________________________________________________________________________________________________
+#**Program No:20**
+*C program to sort an array using bubble sort*
+```#include<stdio.h>
+   int main()
+   {
+    int array[100],n,c,d,swap;
+    printf("enter no of elements\n");
+    scanf("%d",&n);
+    printf ("enter %d elements",n);
+    for(c=0;c<n;c++)
+    {
+      scanf(" %d",&array[c]);
+    }
+    for(c=0;c<n-1;c++)
+    {
+     for(d=0;d<n-c-1;d++)
+     {
+      if(array[d]>array[d+1])
+      {
+       swap=array[d];
+       array[d]=array[d+1];
+       array[d+1]=swap;
+      }
+     }
+    }
+    printf ("sorted list in ascending order");
+    for(c=0;c<n;c++)
+    printf (" %d", array[c]);
+    return 0;
+   }
+```
+```Output
+   enter no of elements
+   5
+   enter 5 elements
+   5
+   4
+   2
+   3
+   1
+   sorted list in ascending order
+    1 2 3 4 5
+```
+______
