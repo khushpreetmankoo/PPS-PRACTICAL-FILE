@@ -476,8 +476,8 @@ __________________________________________________
    0 1 1 2 3 
 ```
 ________________________________________________________________________________________
-#*Program No:17*
-**C Program to use ackerman function**
+#**Program No:17**
+*C Program to use ackerman function*
 ```#include<stdio.h>
    int A(int m,int n);
    int main()
@@ -504,3 +504,69 @@ ________________________________________________________________________________
 
    Output::2
 ```
+_________________________________________________________________________________________________
+#**Program No:18**
+*C program to swap two numbers by call by value*
+```#include<stdio.h>
+   void swap(int x,int y);
+   int main()
+   {
+    int x,y;
+    printf ("enter the values of x and y\n");
+    scanf("%d %d",&x,&y);
+    printf ("Before swapping\n x=%d\n y=%d\n",x,y);
+    swap(x,y);
+    printf ("After swapping\n x=%d\n y=%d\n",x,y);
+   }
+   void swap(int x,int y)
+   {
+    int temp;
+    temp=b;
+    b=a;
+    a=temp;
+   }
+```
+```Output
+   enter the values of x and y
+   2
+   3
+   Before swapping
+   x=2
+   y=3
+   After swapping
+   x=3
+   y=2
+```
+#**Program No:19**
+*C program to swap two numbers by call by reference*
+```#include<stdio.h>
+   void swap(int *x,int *y);
+   int main()
+   {
+    int x,y;
+    printf ("enter the values of x and y\n");
+    scanf("%d %d",&x,&y);
+    printf ("Before swapping\n x=%d\n y=%d\n",x,y);
+    swap(&x,&y);
+    printf ("After swapping\n x=%d\n y=%d\n",x,y);
+   }
+   void swap(int *x,int *y)
+   {
+    int temp;
+    temp=*b;
+    *b=*a;
+    *a=temp;
+   }
+```
+```Output
+   enter the values of x and y
+   2
+   3
+   Before swapping
+   x=2
+   y=3
+   After swapping
+   x=3
+   y=2
+```
+
