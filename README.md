@@ -31,7 +31,7 @@ ________________________________________________________________________________
 | 19. |C program to swap two numbers by call by reference|
 | 20. |C program to sort an array using bubble sort|
 | 21. |C program to sort an array using selection sort|
-|---|---|
+|-----|---------------------------------------------------|
 ___________________________________________________________________________________________________________________________________________________________________________________
 
 
@@ -420,7 +420,29 @@ __________________________________________________
        return 0;
        }
 ```
-__________________________________________________
+```Output
+   enter the no of rows and columns of first matrix
+   3
+   3
+   enter the no of rows and columns of second matrix
+   3
+   3
+   Enter the elements of first matrix
+   2 3 5
+   2 3 4
+   3 4 6
+   
+   Enter the elements of second matrix
+   2 3 5
+   2 3 4
+   3 4 6
+   
+   Sum of entered matrix
+   4 6 10
+   4 6 8
+   6 8 12
+```
+___________________________________
 #**Program no :15**
 *C program to multiply two matrices*
 ```
@@ -472,6 +494,28 @@ __________________________________________________
          if(j == c2-1) 
           printf("\n\n"); 
          } return 0;}
+```
+```Output
+   enter the no of rows and columns of first matrix
+   3
+   3
+   enter the no of rows and columns of second matrix
+   3
+   3
+   Enter the elements of first matrix
+   2 3 5
+   2 3 4
+   3 4 6
+   
+   Enter the elements of second matrix
+   2 3 5
+   2 3 4
+   3 4 6
+   
+   Productof entered matrix
+   25 35 52
+   22 31 46
+   32 45 67
 ```
 __________________________________________________
 #**Program No:16**
