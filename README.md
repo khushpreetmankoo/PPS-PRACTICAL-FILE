@@ -446,7 +446,8 @@ __________________________________________________
          } return 0;}
 __________________________________________________
 #*C program to print fibonacci series*#
-```#include<stdio.h>
+```
+   #include<stdio.h>
    int fibo(int n);
    int main()
    {
