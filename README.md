@@ -447,15 +447,15 @@ __________________________________________________
 ```
 __________________________________________________
 #**Program No:16**
-#**C program to print fibonacci series**
+*C program to print fibonacci series*
 ```
     #include<stdio.h>
     int fibo(int n);
     int main()
     {
      int c, f, n;
-     Printf("Enter the no of terms\n");
-     Scanf("%d",&n);
+     printf("Enter the no of terms\n");
+     scanf("%d",&n);
      for(c=0;c<n;c++)
      {
       f=fibo(c);
@@ -474,4 +474,33 @@ __________________________________________________
    Enter the no of terms
    5
    0 1 1 2 3 
+```
+________________________________________________________________________________________
+#*Program No:17*
+**C Program to use ackerman function**
+```#include<stdio.h>
+   int A(int m,int n);
+   int main()
+   {
+    int m,n;
+    printf ("Enter two numbers\n");
+    scanf("%d %d",&m,&n);
+    printf ("\nOutput::%d\n",A(m,n));
+   }
+   int A(m,n)
+   {
+    if(m==0)
+    return (n+1);
+    else if(n==0)
+    return A(m-1,1);
+    else
+    return A(m-1,A(m,n-1));
+   }
+```
+```Output
+   Enter two numbers
+   0
+   1
+
+   Output::2
 ```
