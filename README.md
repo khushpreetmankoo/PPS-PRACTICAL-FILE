@@ -574,7 +574,8 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 #**Program No:20**
 *C program to sort an array using bubble sort*
-```#include<stdio.h>
+```
+   #include<stdio.h>
    int main()
    {
     int array[100],n,c,d,swap;
@@ -615,4 +616,46 @@ ________________________________________________________________________________
    sorted list in ascending order
     1 2 3 4 5
 ```
-______
+_________________________________________________________________________________________________
+#**Program No : 21**
+*C program to sort an array using selection sort*
+```
+   #include<stdio.h>
+   int main()
+   {
+     int i,j,count,temp,number[25];
+     printf ("enter no of elements\n");
+     scanf("%d",&count);
+     printf("enter elements\n");
+     for(i=0;i<count;i++)
+     scanf("%d",&number[i]);
+     for (i=0;i<count;i++)
+     {
+      for(j=i+1;j<count;j++)
+      {
+        if(number[i]>number[j])
+        {
+          temp=number[i];
+          number[i]=number[j];
+          number[j]=temp;
+         }
+       }
+     }
+     printf("sorted elements\n");
+     for(i=0;i<count;i++)
+     printf("%d",number[i]);
+     return 0;
+    }
+```
+```Output
+   enter no of elements
+   5
+   enter 5 elements
+   5
+   4
+   2
+   3
+   1
+   sorted list in ascending order
+    1 2 3 4 5
+```
