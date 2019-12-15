@@ -507,7 +507,8 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________
 #**Program No:18**
 *C program to swap two numbers by call by value*
-```#include<stdio.h>
+```
+   #include<stdio.h>
    void swap(int x,int y);
    int main()
    {
@@ -539,7 +540,8 @@ ________________________________________________________________________________
 ```
 #**Program No:19**
 *C program to swap two numbers by call by reference*
-```#include<stdio.h>
+```
+   #include<stdio.h>
    void swap(int *x,int *y);
    int main()
    {
