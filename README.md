@@ -7,10 +7,6 @@
 ## **DEPARTMENT OF INFORMATION TECHNOLOGY** 
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
 __________________________________________________
-##**INDEX**
-| Sr.No | Title of programs |
-| ------| ----------------- |
-__________________________________________________
 #**PROGRAM NO:1**
 *C program to print "welcome to budding engineers"*
 
@@ -449,3 +445,30 @@ __________________________________________________
           printf("\n\n"); 
          } return 0;}
 __________________________________________________
+#*C program to print fibonacci series*#
+```#include<stdio.h>
+   int fibo(int n);
+   int main()
+   {
+    int c, f, n;
+    Printf("Enter the no of terms\n");
+    Scanf("%d",&n);
+    for(c=0;c<n;c++)
+    {
+     f=fibo(c);
+     printf ("%d",f);
+    }
+   }
+   int fibo(int n)
+   {
+    if(n==0||n==1)
+    return (n);
+    else
+    return (fibo(n-1)+fibo(n-2));
+   }
+```
+```Output
+   Enter the no of terms
+   5
+   0 1 1 2 3 
+```
