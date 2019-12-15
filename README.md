@@ -1,12 +1,39 @@
 # PPS-PRACTICAL-FILE
 # **PROGRAMMING FOR PROBLEM SOLVING ESC-18105** 
-## NAME- *Khushpreet Singh*
+## NAME- *Khushpreet Singh Mankoo*
 ## UNIVERSITY ROLL NO- *1905352* 
 ## BRANCH- *INFORMATION TECHNOLOGY* 
 ## SECTION- *IT(A2)* ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg) 
 ## **DEPARTMENT OF INFORMATION TECHNOLOGY** 
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
-__________________________________________________
+
+___________________________________________________________________________________________________________________________________________________________________________________
+#****************INDEX*****************************************************************
+|Sr.No|Program title|
+| 1.  |C program to print "welcome to budding engineers"|
+| 2.  |C program to print Hello World three times|
+| 3.  |C program to check no is odd or even|
+| 4.  |C program to check no is positive or negative|
+| 5.  |C program to find prime no|
+| 6.  |C program to check no is palindrome or not|
+| 7.  |C program to print table of a number|
+| 8.  |C program to print table up to range|
+| 9.  |C program to find prime range|
+| 10. |C program to find factorial of a number|
+| 11. |C program to reverse a number|
+| 12. |C program to convert farenhiet to celcius|
+| 13. |C program to find factorial by recursion|
+| 14. |C Program to add two matrices|
+| 15. |C program to multiply two matrices|
+| 16. |C program to print fibonacci series|
+| 17. |C Program to use ackerman function|
+| 18. |C program to swap two numbers by call by value|
+| 19. |C program to swap two numbers by call by reference|
+| 20. |C program to sort an array using bubble sort|
+| 21. |C program to sort an array using selection sort|
+___________________________________________________________________________________________________________________________________________________________________________________
+
+
 #**PROGRAM NO:1**
 *C program to print "welcome to budding engineers"*
 
@@ -360,7 +387,7 @@ __________________________________________________
 ```
 __________________________________________________
 #**Program no : 14**
-*Program to add two matrices*
+*C Program to add two matrices*
 ```
       #include <stdio.h>
        int main()
