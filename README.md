@@ -8,9 +8,8 @@
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA** 
 
 ___________________________________________________________________________________________________________________________________________________________________________________
-#****************INDEX*****************
+#****************INDEX***************
 
-|-----|-------------|
 |Sr.No|Program title|
 | 1.  |C program to print "welcome to budding engineers"|
 | 2.  |C program to print Hello World three times|
