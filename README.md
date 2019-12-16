@@ -11,7 +11,7 @@ ________________________________________________________________________________
 #****************INDEX***************
 
 
-|Sr.No|Program title|
+|Sr.No| Program title |
 | 1.  |C program to print "welcome to budding engineers"|
 | 2.  |C program to print Hello World three times|
 | 3.  |C program to check no is odd or even|
